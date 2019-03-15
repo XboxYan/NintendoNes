@@ -20,28 +20,34 @@
         <div class="panel">
             <div class="controller-area">
                 <div class="controller">
-                    <button class="button-up">up</button>
-                    <button class="button-right">right</button>
-                    <button class="button-down">down</button>
-                    <button class="button-left">left</button>
+                    <button role="BUTTON_UP" class="button-up">up</button>
+                    <button role="BUTTON_RIGHT" class="button-right">right</button>
+                    <button role="BUTTON_DOWN" class="button-down">down</button>
+                    <button role="BUTTON_LEFT" class="button-left">left</button>
                 </div>
                 <div class="joy">I</div>
             </div>
             <div class="function-area">
-                <div class="screen"></div>
+                <div class="screen">
+                    <canvas id="nes-canvas" width="256" height="240"></canvas>
+                </div>
                 <div class="function">
-                    <button>Select</button>
-                    <button>Pause</button>
+                    <button role="BUTTON_SELECT">Select</button>
+                    <button role="BUTTON_START">Pause</button>
                 </div>
             </div>
             <div class="action-area">
                 <div class="action">
-                    <button>B</button>
-                    <button>A</button>
+                    <button role="BUTTON_B">B</button>
+                    <button role="BUTTON_A">A</button>
                 </div>
             </div>
             <div class="sign">FAMILY <br> COMPUTER</div>
         </div>
     </div>
+    <!-- <script type="text/javascript" src="https://unpkg.com/jsnes/dist/jsnes.min.js"></script> -->
+    <script type="text/javascript" src="./js/jsnes.min.js"></script>
+    <script type="text/javascript" src="./js/nes-embed.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
 </body>
 </html>
