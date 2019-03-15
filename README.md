@@ -3,7 +3,17 @@ a NintendoNes monitor for web based on [jsnes](https://github.com/bfirsh/jsnes)
 
 two styles for PC and mobile phone.
 
-[demo](https://web.codelabo.cn/NintendoNes/)
+## experience
+
+open link
+
+[https://web.codelabo.cn/NintendoNes/](https://web.codelabo.cn/NintendoNes/)
+
+or
+
+scan QRcode
+
+![nes](./code.png)
 
 ## screeshot
 
