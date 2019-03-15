@@ -40,5 +40,6 @@ scan QRcode
 |`A`|`BUTTON_LEFT`|move left|
 |`D`|`BUTTON_RIGHT`|move right|
 |`I`,`J`|`BUTTON_B`|attack|
+|`K`,`O`|`BUTTON_A`|jump|
 |`Tab`|`BUTTON_SELECT`|select model|
 |`Backspace`|`BUTTON_START`|start or pause|
