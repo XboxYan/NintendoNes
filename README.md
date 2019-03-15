@@ -42,4 +42,4 @@ scan QRcode
 |`I`,`J`|`BUTTON_B`|attack|
 |`K`,`O`|`BUTTON_A`|jump|
 |`Tab`|`BUTTON_SELECT`|select model|
-|`Backspace`|`BUTTON_START`|start or pause|
+|`Enter`|`BUTTON_START`|start or pause|
