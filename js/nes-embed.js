@@ -74,6 +74,9 @@ function keyboard(callback, event){
 		case 9: // Tab
 			callback(player, jsnes.Controller.BUTTON_SELECT); break;
 		case 13: // Return
+			if(audio_ctx.state !== 'running') {
+				audio_ctx.resume(); 
+			}
 			callback(player, jsnes.Controller.BUTTON_START); break;
 		default: break;
 	}
@@ -104,9 +107,9 @@ function nes_init(canvas_id){
 function nes_boot(rom_data){
 	nes.loadROM(rom_data);
     window.requestAnimationFrame(onAnimationFrame);
-    setTimeout(function(){
-        audio_ctx.resume();
-    }, 1000);
+    // setTimeout(function(){
+    //     audio_ctx.resume();
+    // }, 1000);
 }
 
 function nes_load_data(canvas_id, rom_data){
@@ -139,5 +142,5 @@ document.addEventListener('keydown', function(event){
 	keyboard(nes.buttonDown, event)
 });
 document.addEventListener('keyup', function(event){
-	keyboard(nes.buttonDown, event)
+	keyboard(nes.buttonUp, event)
 });

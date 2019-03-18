@@ -10,6 +10,11 @@
             BUT_LIST[i].addEventListener('touchend',function(){
                 nes.buttonUp(player,jsnes.Controller[action])
             },false);
+            if(action='START' && audio_ctx){
+                if(audio_ctx.state !== 'running') {
+                    audio_ctx.resume(); 
+                }
+            }
         })(i)
     }
 
