@@ -7,13 +7,7 @@ two styles for PC and mobile phone.
 
 open link
 
-[https://web.codelabo.cn/NintendoNes/](https://web.codelabo.cn/NintendoNes/)
-
-or
-
-scan QRcode
-
-![nes](./code.png)
+[https://xboxyan.codelabo.cn/NintendoNes/](https://xboxyan.codelabo.cn/NintendoNes/)
 
 ## screeshot
 
